@@ -1,0 +1,78 @@
+
+body
+{
+    background-color: grey;
+    color: white;
+}
+
+.header{
+    font-size: 24px; 
+    color: coral; 
+    padding: 16px;
+}
+
+p
+{
+    color: blue;
+}
+
+h1
+{
+    color: red;
+}
+
+
+#firstHeader
+{
+    color: rgb(0, 236, 241);
+}
+
+.content
+{
+    font: Arial, helvetica;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+form
+{
+    color: black;
+    background-color: white;
+    padding: 0px 32px; /*0 padding for top and bottom*/
+    /* border: solid 2px red; */
+    /* margin: 32px; */
+    height: 100vh; /*100 percent of your view height*/
+    width: 100vw; /*100 percent of your view width*/
+    border: dashed 5px yellowgreen;
+    border-radius: 32px;
+
+}
+
+.img-container
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+img{
+    position: absolute;
+    top: 0px;
+    right: 32px;
+}
+
+.flexBox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.flexBox-items
+{
+    width: 30%;
+    height: 50px;
+}
+
+
+
